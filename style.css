@@ -1,0 +1,114 @@
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5D4954
+    font-family:cursive; sans-serif;
+
+}
+
+.container{
+  width: 80%
+  margin: 0 auto;
+}
+
+header {
+  background: none
+}
+
+.logo {
+  float: left;
+  margin-left: 10
+
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a link, a visited {
+  display: block;
+  front-weight: bold;
+  colour: black
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 35px;
+  padding-top: 50px;
+
+  position: relative;
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: black
+}
+
+nav a:hover{s
+  color: grey
+
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 15px
+  width: 100%
+  background-color: #444;
+}
+html {
+  background: url(../img/white.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;
+}
